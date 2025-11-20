@@ -41,7 +41,7 @@ export default function Footer() {
             <div className="mt-3 flex gap-4">
               {/* Instagram */}
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/cafequiposoficial/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-footer-text/80 transition-colors hover:text-button-primary"
@@ -54,7 +54,7 @@ export default function Footer() {
 
               {/* YouTube */}
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/@cafequipos"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-footer-text/80 transition-colors hover:text-button-primary"
@@ -67,7 +67,7 @@ export default function Footer() {
 
               {/* Facebook */}
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/cafequip/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-footer-text/80 transition-colors hover:text-button-primary"
@@ -77,6 +77,17 @@ export default function Footer() {
                   <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
                 </svg>
               </a>
+              <a
+                href="https://www.tiktok.com/@cafequiposoficial"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Síguenos en TikTok"
+                className="text-footer-text/80 transition-colors hover:text-button-primary"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" className="h-6 w-6" fill="currentColor">
+                  <path d="M232 72a56 56 0 0 1-56-56h-32v152a32 32 0 1 1-32-32h8V96h-8a64 64 0 1 0 64 64V84.9A87.4 87.4 0 0 0 232 96Z" />
+                </svg>
+              </a>
             </div>
           </div>
         </div>
@@ -84,7 +95,7 @@ export default function Footer() {
         {/* Bottom Section - Copyright and Links */}
         <div className="mt-12 border-t border-footer-text/20 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 text-sm md:flex-row">
-            <p className="text-footer-text/60">© 2024 Espresso Academy. Todos los derechos reservados.</p>
+            <p className="text-footer-text/60">© 2024 Cafequipos. Todos los derechos reservados.</p>
             <div className="flex gap-6">
               <Link href="/" className="text-footer-text/60 transition-colors hover:text-button-primary">
                 Política de Privacidad

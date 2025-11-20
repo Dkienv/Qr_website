@@ -153,11 +153,11 @@ export const machineModels: MachineModel[] = [
       },
       {
         id: "t14",
-        title: "Optimal Brew Parameters",
-        category: "BREWING TECHNIQUES",
-        duration: "13 min",
-        difficulty: "Intermediate",
-        youtubeUrl: "https://youtube.com/watch?v=placeholder14",
+        title: "Limpieza con Pastillas",
+        category: "MAINTENANCE",
+        duration: "10 min",
+        difficulty: "Easy",
+        youtubeUrl: "https://www.youtube.com/watch?v=lIZnxQFd9YE",
       },
       {
         id: "t15",

@@ -16,23 +16,35 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="text-xl font-bold text-foreground">
-                Espresso Academy
+              <div className="text-2xl font-bold text-foreground">
+                <Image src="/logo.png" alt="CAFEQUIPOS Logo" width={200} height={40} />
               </div>
             </div>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center gap-8">
-              <Link href="/" className="text-sm font-medium text-foreground hover:text-button-primary transition-colors">
+              <Link
+                href="/"
+                className="text-sm font-medium text-foreground hover:text-button-primary transition-colors"
+              >
                 Home
               </Link>
-              <Link href="/" className="text-sm font-medium text-foreground/60 hover:text-button-primary transition-colors">
+              <Link
+                href="/"
+                className="text-sm font-medium text-foreground/60 hover:text-button-primary transition-colors"
+              >
                 Models
               </Link>
-              <Link href="/" className="text-sm font-medium text-foreground/60 hover:text-button-primary transition-colors">
+              <Link
+                href="/"
+                className="text-sm font-medium text-foreground/60 hover:text-button-primary transition-colors"
+              >
                 Latest Tutorials
               </Link>
-              <Link href="/" className="text-sm font-medium text-foreground/60 hover:text-button-primary transition-colors">
+              <Link
+                href="/"
+                className="text-sm font-medium text-foreground/60 hover:text-button-primary transition-colors"
+              >
                 Contact
               </Link>
             </nav>
@@ -96,12 +108,8 @@ export default function Home() {
       {/* Hero Section */}
       <section className="py-16 text-center">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl font-bold text-foreground sm:text-5xl">
-            Latest &amp; Greatest Tutorials
-          </h1>
-          <p className="mt-4 text-lg text-foreground/70">
-            Freshly brewed content to help you master your machine
-          </p>
+          <h1 className="text-4xl font-bold text-foreground sm:text-5xl">Latest &amp; Greatest Tutorials</h1>
+          <p className="mt-4 text-lg text-foreground/70">Freshly brewed content to help you master your machine</p>
         </div>
       </section>
 
